@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test-R1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.TestNG.ParallelExecutionTest">
+        <methods>
+          <include name="Login"/>
+          <include name="configBC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.TestNG.ParallelExecutionTest -->
+    </classes>
+  </test> <!-- Test-R1(failed) -->
+  <test name="Test-R2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.TestNG.ParallelExecutionTest">
+        <methods>
+          <include name="Login"/>
+          <include name="configBC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.TestNG.ParallelExecutionTest -->
+    </classes>
+  </test> <!-- Test-R2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

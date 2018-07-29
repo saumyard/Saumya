@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87755" started-at="2018-07-28T16:46:33Z" finished-at="2018-07-28T16:48:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87755" started-at="2018-07-28T16:46:33Z" finished-at="2018-07-28T16:48:01Z">
+      <class name="com.Guru99Bank.Task6">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="loginTest" is-config="true" duration-ms="13772" started-at="2018-07-28T09:46:34Z" finished-at="2018-07-28T09:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="takeScreenshot(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="takeScreenshot" duration-ms="7207" started-at="2018-07-28T09:46:48Z" data-provider="getLoginData" finished-at="2018-07-28T09:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr143993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emAmUjA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="logoutTest" is-config="true" duration-ms="13" started-at="2018-07-28T09:46:55Z" finished-at="2018-07-28T09:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="loginTest" is-config="true" duration-ms="21185" started-at="2018-07-28T09:46:55Z" finished-at="2018-07-28T09:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="takeScreenshot(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="takeScreenshot" duration-ms="3092" started-at="2018-07-28T09:47:17Z" data-provider="getLoginData" finished-at="2018-07-28T09:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emAmUjA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="logoutTest" is-config="true" duration-ms="1696" started-at="2018-07-28T09:47:20Z" finished-at="2018-07-28T09:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="loginTest" is-config="true" duration-ms="15295" started-at="2018-07-28T09:47:21Z" finished-at="2018-07-28T09:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="takeScreenshot(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="takeScreenshot" duration-ms="2756" started-at="2018-07-28T09:47:37Z" data-provider="getLoginData" finished-at="2018-07-28T09:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr143993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[em1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="logoutTest" is-config="true" duration-ms="2747" started-at="2018-07-28T09:47:39Z" finished-at="2018-07-28T09:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="loginTest" is-config="true" duration-ms="13085" started-at="2018-07-28T09:47:42Z" finished-at="2018-07-28T09:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="takeScreenshot(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="takeScreenshot" duration-ms="2452" started-at="2018-07-28T09:47:55Z" data-provider="getLoginData" finished-at="2018-07-28T09:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[em1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.Guru99Bank.Task6@4f7d0008]" name="logoutTest" is-config="true" duration-ms="2876" started-at="2018-07-28T09:47:58Z" finished-at="2018-07-28T09:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.Guru99Bank.Task6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
